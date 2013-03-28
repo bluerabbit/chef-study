@@ -1,6 +1,18 @@
-#### chef-solo
+### berkshelf
 
-localhost.json
+```
+berks --path cookbooks
+```
+
+### vagrant
+
+```
+vagrant ssh-config --host vagrant01 >> ~/.ssh/config
+```
+
+### nodes
+
+vagrant01.json
 
 ```javascript
 {
@@ -11,27 +23,13 @@ localhost.json
 ```
 
 
-solo.rb
+#### knife-solo
 
-```ruby
-file_cache_path "/tmp/chef-solo"
-cookbook_path ["#{File.expand_path(File.dirname(__FILE__))}/site-cookbooks"]
+```
+$ knife solo prepare vagrant01
 ```
 
 ```
-%chef-solo -c solo.rb -j ./nodes/localhost.json
-Starting Chef Client, version 11.4.0
-Compiling Cookbooks...
-Converging 1 resources
-Recipe: hello::default
-  * log[hello] action write
-
-Chef Client finished, 1 resources updated
+$ knife solo cook vagrant01
 ```
 
-
-### berkshelf
-
-```
-berks --path cookbooks
-```
