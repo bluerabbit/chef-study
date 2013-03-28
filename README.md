@@ -28,3 +28,10 @@ Recipe: hello::default
 
 Chef Client finished, 1 resources updated
 ```
+
+
+### berkshelf
+
+```
+berks --path cookbooks
+```
