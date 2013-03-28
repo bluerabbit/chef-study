@@ -19,7 +19,7 @@ cookbook_path ["#{File.expand_path(File.dirname(__FILE__))}/site-cookbooks"]
 ```
 
 ```
-%chef-solo -c solo.rb -j ./localhost.json
+%chef-solo -c solo.rb -j ./nodes/localhost.json
 Starting Chef Client, version 11.4.0
 Compiling Cookbooks...
 Converging 1 resources
