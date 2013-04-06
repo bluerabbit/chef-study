@@ -17,3 +17,10 @@
 ```
 $ knife solo cook vagrant01
 ```
+
+
+#### 新規cookbook作成
+
+```
+$ knife cookbook create hoge -o site-cookbooks
+```
