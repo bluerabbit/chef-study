@@ -11,3 +11,4 @@ cookbook 'zsh'
 cookbook 'git'
 
 cookbook 'java'
+cookbook 'jenkins'

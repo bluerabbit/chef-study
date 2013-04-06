@@ -1,6 +1,14 @@
 {
     "run_list" : [
+        "recipe[build-essential]",
+        "recipe[apt]",
+        "recipe[curl]",
+        "recipe[vim]",
+        "recipe[emacs]",
+        "recipe[zsh]",
         "recipe[git]",
-        "recipe[zsh]"
-    ]
+        "recipe[java]",
+        "recipe[jenkins]"
+    ],
+    "java" : {"jdk_version" : "7"}
 }
