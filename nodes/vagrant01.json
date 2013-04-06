@@ -8,7 +8,8 @@
         "recipe[zsh]",
         "recipe[git]",
         "recipe[java]",
-        "recipe[jenkins]"
+        "recipe[jenkins]",
+        "recipe[rbenv]"
     ],
     "java" : {"jdk_version" : "7"}
 }

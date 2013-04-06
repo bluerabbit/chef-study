@@ -12,3 +12,5 @@ cookbook 'git'
 
 cookbook 'java'
 cookbook 'jenkins'
+
+cookbook 'rbenv'
