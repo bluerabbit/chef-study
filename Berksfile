@@ -14,3 +14,4 @@ cookbook 'java'
 cookbook 'jenkins'
 
 cookbook 'rbenv'
+cookbook 'timezone'

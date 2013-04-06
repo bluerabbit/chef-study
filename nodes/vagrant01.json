@@ -10,7 +10,9 @@
         "recipe[java]",
         "recipe[jenkins]",
         "recipe[rbenv]",
-        "recipe[zshrc]"
+        "recipe[zshrc]",
+        "recipe[timezone]"
     ],
+    "tz" : "Asia/Tokyo",
     "java" : {"jdk_version" : "7"}
 }
