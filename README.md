@@ -5,13 +5,13 @@
 - Vagrant
   - http://files.vagrantup.com/packages/64e360814c3ad960d810456add977fd4c7d47ce6/Vagrant.dmg
 
-
-    $ bundle install
-    $ berks --path cookbooks
-    $ vagrant up
-    $ vagrant ssh-config --host vagrant01 >> ~/.ssh/config
-    $ knife solo prepare vagrant01
-
+```
+$ bundle install
+$ berks --path cookbooks
+$ vagrant up
+$ vagrant ssh-config --host vagrant01 >> ~/.ssh/config
+$ knife solo prepare vagrant01
+```
 #### knife-solo
 
 ```
