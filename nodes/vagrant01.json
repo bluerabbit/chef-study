@@ -11,8 +11,10 @@
         "recipe[jenkins]",
         "recipe[rbenv]",
         "recipe[zshrc]",
-        "recipe[timezone]"
+        "recipe[timezone]",
+        "recipe[locale]"
     ],
     "tz" : "Asia/Tokyo",
+    "locale" : {"lang" : "ja_JP.UTF-8"},
     "java" : {"jdk_version" : "7"}
 }
